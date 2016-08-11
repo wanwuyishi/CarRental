@@ -1,0 +1,447 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- ######################################################## -->
+    <!-- #                        Image                         # -->
+    <!-- ######################################################## -->
+
+    <style name="Material_Card_Head_Image">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="Material_Card_Rich_Media_Image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- ######################################################## -->
+    <!-- #                        Title                         # -->
+    <!-- ######################################################## -->
+
+    <style name="Material_Card_Title" parent="Material_Headline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|center</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+
+    <style name="Material_Card_Title_Image" parent="Material_Card_Title">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- ######################################################## -->
+    <!-- #                      Subtitle                        # -->
+    <!-- ######################################################## -->
+
+    <style name="Material_Card_Subtitle_24dp" parent="Material_Subhead">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:gravity">center_vertical|center</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">24dp</item>
+    </style>
+
+    <style name="Material_Card_Subtitle_16dp" parent="Material_Card_Subtitle_24dp">
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="Material_Card_Subtitle_3dp" parent="Material_Card_Subtitle_24dp">
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:gravity">center_vertical|center</item>
+    </style>
+
+
+    <style name="Material_Card_Subtitle_Image" parent="Material_Card_Subtitle_16dp">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- ######################################################## -->
+    <!-- #                    Supporting Text                   # -->
+    <!-- ######################################################## -->
+
+    <!-- Should be used if there are no actions -->
+    <style name="Material_Card_Supporting_Text_24dp" parent="Material_Body1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">24dp</item>
+    </style>
+
+    <!-- Should be used if there are additional actions or supporting text -->
+    <style name="Material_Card_Supporting_Text_16dp" parent="Material_Card_Supporting_Text_24dp">
+
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <!-- ######################################################## -->
+    <!-- #                        Others                        # -->
+    <!-- ######################################################## -->
+
+    <style name="Material_Card_View">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+
+    <style name="MainLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="CardTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:textSize">24sp</item>
+        <!--<item name="android:fontFamily">sans-serif-light</item>-->
+
+        <item name="android:gravity">bottom|left</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+
+    <style name="CardSubtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:textSize">14sp</item>
+        <!--<item name="android:fontFamily">sans-serif-light</item>-->
+
+        <item name="android:gravity">bottom|left</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="CardDescription">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="Material_Action" parent="@style/Base.TextAppearance.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:buttonStyle">@style/Base.Widget.AppCompat.Button</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <!--<item name="android:background">#d4d4d4</item>-->
+
+    </style>
+
+    <style name="PrimaryButtonBaseStyle" parent="@style/Material_Action">
+        <item name="android:textColor">@color/orange_button</item>
+    </style>
+
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+   <!--bottombar-->
+    <style name="BB_BottomBarItem">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:layout_width">wrap_content</item>
+        <!-- layout_height is ignored since the height is set programmatically in BottomBar
+        .updateItems() -->
+        <item name="android:layout_height">@dimen/bb_height</item>
+    </style>
+
+    <style name="BB_BottomBarItem_Fixed" parent="BB_BottomBarItem">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+    </style>
+
+    <style name="BB_BottomBarItem_TitleStyle">
+        <!-- Material spec: "Avoid long text labels as these labels do not truncate or wrap." -->
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="BB_BottomBarItem_Fixed.TitleAppearance" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BB_BottomBarItem_Shifting" parent="BB_BottomBarItem">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="BB_BottomBarItem_Shifting.TitleAppearance" parent="BB_BottomBarItem_Fixed.TitleAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="BB_BottomBarItem_Tablet">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BB_BottomBarBadge_Text" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- 自定义仿IOS的ActionSheet底部Dialog的样式 ，有模糊效果 -->
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog"><!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item><!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item><!-- 边框 -->
+        <item name="android:windowFrame">@null</item><!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item><!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item><!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item><!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+    <integer-array name="jianshu_colors">
+        <item>@color/jiansu_color</item>
+    </integer-array>
+    //信誉认证之上传图片
+    <style name="tv_upload_photo">
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#DBDBDB</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:src">@drawable/icon_bacgroud</item>
+    </style>
+
+    <style name="tv_upload">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="txta">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="txtb">
+        <item name="android:layout_width">@dimen/edit_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_button</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+    <style name="txtc" parent="txtb">
+        <item name="android:layout_width">@dimen/edit_width_small</item>
+    </style>
+    <style name="edta">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="GotyeTitleTextStyle" parent="">
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/gotye_text_white</item>
+    </style>
+
+    <style name="GotyeMessageTextStyle" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="GotyeListViewTextStyle" parent="">
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/gotye_text_dark_gray</item>
+    </style>
+
+    <style name="GotyeListViewStyle" parent="">
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">0dip</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+
+    <style name="GotyeTitleTextMiddleStyle" parent="GotyeTitleTextStyle">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="GotyeTitleTextSmallStyle" parent="GotyeTitleTextMiddleStyle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="GotyeContentPaddingStyle" parent="">
+        <item name="android:paddingLeft">@dimen/gotye_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/gotye_padding_left_right</item>
+    </style>
+
+    <style name="GotyeListViewItemStyle" parent="GotyeContentPaddingStyle"></style>
+    <style name="chat_text_date_style">
+        <item name="android:padding">2dp</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:textColor">@color/btn_gray_normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/timestampe_bg</item>
+    </style>
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+
+    <style name="voice_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#fff3f6f7</item>
+        <item name="android:windowBackground">@drawable/filled_box</item>
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+
+    <!--个人详细资料-->
+
+
+    <style name="per_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/mid_padding</item>
+        <item name="android:paddingBottom">@dimen/mid_padding</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="per_txtf">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="per_txtdetail" parent="per_txtf">
+        <item name="android:textSize">12dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/text_nor</item>
+    </style>
+
+
+    <style name="btn_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/iforminput_bg</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/btn_size</item>
+    </style>
+
+
+    <style name="per_edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/per_edit_size</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:padding">@dimen/per_edit_padding</item>
+        <item name="android:textColor">@color/text_nor</item>
+        <item name="android:background">@drawable/iforminput_bg</item>
+
+    </style>
+
+    <!--/////个人详细资料-->
+    <!--
+            parent="@android:style/Widget.RatingBar"-->
+    <style
+        name="roomRatingBar"
+        parent="@android:style/Widget.RatingBar"
+        >
+        <item name="android:progressDrawable">@drawable/room_rating_bar</item>
+        <item name="android:minHeight">28dip</item>
+        <item name="android:maxHeight">28dip</item>
+        <item name="android:minWidth">24dip</item>
+        <item name="android:maxWidth">24dip</item>
+    </style>
+    <style
+        name="roomRatingBarbig"
+        parent="@android:style/Widget.RatingBar"
+        >
+        <item name="android:progressDrawable">@drawable/room_rating_big</item>
+        <item name="android:minHeight">50dip</item>
+        <item name="android:maxHeight">50dip</item>
+    </style>
+
+</resources>

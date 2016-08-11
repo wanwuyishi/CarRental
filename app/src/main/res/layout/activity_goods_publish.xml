@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearLayout1">
+
+            <include
+                android:id="@+id/bottom_layout"
+                layout="@layout/item_goods_source" />
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent"
+            android:elevation="@dimen/elevation"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_release_friends"
+                style="@style/Material_Action"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="发给常用车"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_normal" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/divider_grey" />
+
+            <Button
+                android:id="@+id/btn_release"
+                style="@style/Material_Action"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="发布"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_normal" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

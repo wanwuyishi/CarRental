@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#608DFA</color>
+    <color name="black_button">#3C3C3C</color>
+    <color name="text_nor">#727272</color>
+    <color name="red">#F44336</color>
+
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+    <color name="blue_m">#0A9D7E</color>
+
+    <color name="grey_title">#626262</color>
+    <color name="description_color">#878787</color>
+    <color name="orange_button">#FD9B32</color>
+    <color name="divider_grey">#e4e4e4</color>
+    <color name="divider_blue">#536DFE</color>
+    <color name="white">#ffffff</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="half_black">#808080</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+
+    <color name="material_red">#ffF44336</color>
+    <color name="material_green">#ff4CAF50</color>
+    <color name="material_blue">#ff03A9F4</color>
+    <color name="material_yellow">#ffFFEB3B</color>
+
+    <color name="jiansu_color">#FF8C7C</color>
+    <!--信誉认证-->
+    <color name="topbar_bg">#b6292d</color>
+    <color name="bottomtab_normal">#c8bca5</color>
+    <color name="bottomtab_press">#FFC107</color>
+    <color name="line">#c8bca5</color>
+
+
+    <!--chat亲加-->
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="btn_login_normal">#007086</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#2dafa3</color>
+    <color name="btn_register_pressed">#4ebcd3</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#cccccc</color>
+    <color name="top_bar_normal_bg">#4ebcd3</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="voip_interface_text_color">#bababa</color>
+    <color name="black_deep">#FF000000</color>
+    <color name="gray">#808080</color>
+    <color name="black">#000000</color>
+    <!-- 黑色 -->
+
+    <color name="tab_bg_color">#eeeeeeee</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#88000000</color>
+    <color name="gotye_bg_gray">#ededed</color>
+    <color name="room_pressed">#2fbdb8</color>
+    <color name="gotye_text_white">#ffffff</color>
+    <color name="gotye_text_dark_gray">#414141</color>
+    <color name="gotye_text_send_pressed">#7690b0</color>
+    <!-- R118 G144 B176 -->
+
+    <color name="gotye_voice_send_pressed">#2dbcba</color>
+    <color name="gotye_chat_name">#767676</color>
+    <color name="gotye_item_room_top_text">#ffffff</color>
+    <color name="gotye_item_room_normal_text">#000000</color>
+    <color name="gotye_pullrefresh_text">#000000</color>
+
+    <drawable name="contact_room_group_normal">#FFFFFF</drawable>
+    <drawable name="contact_room_group_press">#ebebeb</drawable>
+
+    <color name="app_color">#0fd5c9</color>
+
+    <drawable name="title_bar_bg">#0fd5c9</drawable>
+
+</resources>

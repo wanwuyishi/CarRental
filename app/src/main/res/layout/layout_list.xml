@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjcj.carrental.view.refreshLoad.MaterialRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/material_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:isLoadMore="true"
+    app:overlay="true"
+    app:progress_colors="@array/jianshu_colors"
+    app:progress_size_type="normal"
+    app:wave_show="false">
+
+    <ListView
+        android:id="@+id/material_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label" />
+
+</com.tjcj.carrental.view.refreshLoad.MaterialRefreshLayout>
+
+    <!--<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:id="@+id/swipeRefreshLayout"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+    <!--<ListView--><!--android:id="@+id/material_listview"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_below="@+id/section_label" />-->
+
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->

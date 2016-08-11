@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="实名认证" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="真实姓名" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/et_driver_name"
+            android:hint="请与身份证保持一致"
+            android:padding="5dp"
+            android:textSize="14dp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="身份证号" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/et_driver_identify"
+            android:hint="请与身份证保持一致"
+            android:padding="5dp"
+            android:maxLength="18"
+            android:textSize="14dp">
+        </EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="车牌号" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_driver_car"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textColor="@color/blue_m"
+                android:text="京A">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_driver_car"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="车牌号"
+                android:padding="5dp"
+                android:maxLength="5"
+                android:textSize="14dp"
+                android:singleLine="true"></EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#0BA683"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_pressed_style"
+            android:id="@+id/btn_driver_submit"
+            android:text="提交"
+            android:textColor="#FDFEFE"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DADBDA" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            style="@style/tv_upload"
+            android:text="身份证"/>
+        <TextView
+            style="@style/tv_upload"
+            android:text="驾驶证"/>
+        <TextView
+            style="@style/tv_upload"
+            android:text="行驶证"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/iv_card"
+            style="@style/tv_upload_photo"/>
+        <ImageView
+            android:id="@+id/iv_driver_license"
+        style="@style/tv_upload_photo"/>
+        <ImageView
+            android:id="@+id/iv_car_driving_license"
+            style="@style/tv_upload_photo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:id="@+id/tv_card"
+            style="@style/tv_upload"
+            android:text="未认证"/>
+        <TextView
+            android:id="@+id/tv_driver_license"
+            style="@style/tv_upload"
+            android:text="已上传"/>
+        <TextView
+            android:id="@+id/tv_car_driving_license"
+            style="@style/tv_upload"
+            android:text="未上传"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            style="@style/tv_upload"
+            android:text="门头"/>
+        <TextView
+            style="@style/tv_upload"
+            android:text="营业执照"/>
+        <TextView
+            style="@style/tv_upload"
+            android:text="组织机构代码证"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/iv_door"
+            style="@style/tv_upload_photo"/>
+        <ImageView
+            android:id="@+id/iv_business"
+            style="@style/tv_upload_photo"/>
+        <ImageView
+            android:id="@+id/iv_code"
+            style="@style/tv_upload_photo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:id="@+id/tv_door"
+            style="@style/tv_upload"
+            android:text="未认证"/>
+        <TextView
+            android:id="@+id/tv_business"
+            style="@style/tv_upload"
+            android:text="已上传"/>
+        <TextView
+            android:id="@+id/tv_code"
+            style="@style/tv_upload"
+            android:text="未上传"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            style="@style/tv_upload"
+            android:text="从业资格证"/>
+        <TextView
+            style="@style/tv_upload"
+            android:text="道路经营许可证"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/iv_practise_license"
+            style="@style/tv_upload_photo"/>
+        <ImageView
+            android:id="@+id/iv_road_license"
+            style="@style/tv_upload_photo"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:id="@+id/tv_practise_license"
+            style="@style/tv_upload"
+            android:text="已认证"/>
+        <TextView
+            android:id="@+id/tv_road_license"
+            style="@style/tv_upload"
+            android:text="未认证"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
