@@ -46,10 +46,10 @@ public class BaseAction<T> {
 			String str=obj.getString("list");
 			list=(List<T>)SerializeUtils.unSerialize(str);
 		} catch (JSONException e) {
-			// TODO Auto-generated catch block
+			// sdfsa
 			e.printStackTrace();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+			// sdfa
 			e.printStackTrace();
 		}
 		return list;
